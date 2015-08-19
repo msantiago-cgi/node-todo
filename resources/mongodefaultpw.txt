@@ -1,0 +1,13 @@
+KXBq7ua97rXD
+
+
+db.createUser({
+        user: "msantiagoAdmin",
+        pwd: "125612",
+        roles:[
+                {
+                        "role" : "readWrite",
+                        "db": "dummyDB"
+                }
+        ]
+})
